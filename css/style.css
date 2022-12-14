@@ -1,0 +1,59 @@
+body {
+    font-family: "Poppins" !important;
+}
+.navbar {
+    z-index: 1;
+}
+.navbar-nav li:hover {
+    background-color: #DDD;
+}
+.navbar-nav li ul {
+    display: none;
+}
+.navbar-nav li:last-of-type:hover ul{
+    display: block;
+}
+form .search {
+    padding: 20px;
+    cursor: pointer;
+}
+@media (max-width: 991px) {
+    form .search {
+        font-size: 21px;
+        padding: 9px;
+    }
+}
+form .search:hover {
+    background-color: red;
+}
+@media (max-width: 991px) {
+    .navbar-collapse ul {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-collapse > ul {
+        display: flex !important;
+    }
+}
+.band h2 {
+    letter-spacing: 4px;
+}
+.tour img:hover,
+.social-media i:hover {
+    opacity: .5;
+}
+button:hover {
+    background-color: #DDD !important;
+    color: #000 !important;
+}
+@media (max-width: 991px) {
+    .search-box,
+    .search-box input,
+    .search-box button {
+        width: calc(100% - 10px) !important;
+    }
+    .search-box input {
+        left: 50%;
+    }
+}

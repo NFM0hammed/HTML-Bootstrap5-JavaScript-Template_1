@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Main CSS File -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Bootstrap 5 File -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Font Awesome File -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- Google Fonts File -->
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <title>HTML Bootstrap 5 JavaScript Template_1</title>
+    </head>
+    <body>
+        <!-- Start Header -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top p-0">
+            <div class="container-fluid container position-relative">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  <i class="fas fa-bars text-white h2"></i>
+                </span>
+              </button>
+              <div class="navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-2 p-2">
+                    <a class="nav-link active text-white" aria-current="page" href="#home">HOME</a>
+                  </li>
+                  <li class="nav-item mx-2 p-2">
+                    <a class="nav-link active text-white" aria-current="page" href="#band">BAND</a>
+                  </li>
+                  <li class="nav-item mx-2 p-2">
+                    <a class="nav-link active text-white" aria-current="page" href="#tour">TOUR</a>
+                  </li>
+                  <li class="nav-item mx-2 p-2">
+                    <a class="nav-link active text-white" aria-current="page" href="#contact">CONTACT</a>
+                  </li>
+                  <li class="nav-item dropdown mx-2 p-2 position-relative">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">MORE</a>
+                    <ul class="position-absolute start-0 top-100 p-0 bg-white" style="min-width: 200px; box-shadow: 0 0 5px 1px #ddd;">
+                        <li class="nav-item p-2 list-unstyled">
+                            <a class="nav-link active text-dark" aria-current="page" href="#">Merchandise</a>
+                        </li>
+                        <li class="nav-item p-2 list-unstyled">
+                            <a class="nav-link active text-dark" aria-current="page" href="#">Extras</a>
+                        </li>
+                        <li class="nav-item p-2 list-unstyled">
+                            <a class="nav-link active text-dark" aria-current="page" href="#">Media</a>
+                        </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form>
+                    <i class="fa-solid fa-magnifying-glass text-white search position-absolute top-0 end-0"></i>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- End Header -->
+        <!-- Start Search Box -->
+        <div class="overlay position-fixed w-100 h-100 top-0 start-0" style="display: none; background-color: rgba(0, 0, 0, 0.281); z-index: 1;"></div>
+        <div class="search-box position-fixed top-50 start-50 h-50 bg-light translate-middle" style="display: none; z-index: 2; width: 50%;">
+          <span class="position-absolute end-0 me-1 text-warning fs-2 btn">X</span>
+          <input type="search" placeholder="Search Here.." class="position-absolute top-50 end-0 p-2 text-warning border-0 border-bottom translate-middle" style="width: 50%;">
+          <button class="btn bg-warning text-white position-absolute top-50 start-50 translate-middle-x mt-4" style="width: 50%;">Search</button>
+        </div>
+        <!-- End Search Box -->
+        <!-- Start Banner -->
+        <div class="banner position-relative min-vh-100" id="home">
+          <img src="imgs/chigaco.jpg" alt="" class="position-absolute w-100 h-100">
+          <div class="info position-absolute text-white bottom-0 start-50 translate-middle text-center">
+            <h3>Chicago</h3>
+            <p>Thank you, Chicago - A night we won't forget</p>
+          </div>
+        </div>
+        <!-- End Banner -->
+        <!-- Start Band Section -->
+        <div class="band container pt-5 pb-5 text-center" id="band">
+          <h2 class="m-0 pb-3">THE BAND</h2>
+          <span class="text-secondary fst-italic">We love music</span>
+          <p class="pt-4 pb-5 m-0">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <span class="d-block pb-3">Name</span>
+              <img src="imgs/bandmember.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <span class="d-block pb-3">Name</span>
+              <img src="imgs/bandmember.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <span class="d-block pb-3">Name</span>
+              <img src="imgs/bandmember.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- End Band Section -->
+        <!-- Start Tour Section -->
+        <div class="tour pt-5 pb-5 text-center bg-dark" id="tour">
+          <div class="container">
+            <div class="info">
+              <h2 class="m-0 pb-3 text-white">TOUR DATES</h2>
+              <span class="text-secondary fst-italic">Remember to book your tickets!</span>
+            </div>
+            <ul class="bg-white mt-5 pt-2 pb-2 px-0">
+              <li class="list-unstyled text-start text-secondary p-3 border-bottom">September <span class="bg-danger p-1 text-white mx-4">Sold out</span></li>
+              <li class="list-unstyled text-start text-secondary p-3 border-bottom">October  <span class="bg-danger p-1 text-white mx-4">Sold out</span></li>
+              <li class="list-unstyled text-start text-secondary p-3">November <span class="float-end bg-dark rounded-circle text-white px-2">3</span></li>
+            </ul>
+            <div class="row pt-5">
+              <div class="col-lg-4">
+                <img src="imgs/newyork.jpg" alt="" class="w-100">
+                <div class="info bg-white text-start px-3">
+                  <h5 class="pt-4 pb-4 m-0 fw-bold">New Yourk</h5>
+                  <span>Fri 27 Nov 2016</span>
+                  <p class="pt-3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                  <button class="mb-2 p-2 bg-dark text-white border-0">Buy Tickets</button>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <img src="imgs/paris.jpg" alt="" class="w-100">
+                <div class="info bg-white text-start px-3">
+                  <h5 class="pt-4 pb-4 m-0 fw-bold">Paris</h5>
+                  <span>Sat 28 Nov 2016</span>
+                  <p class="pt-3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                  <button class="mb-2 p-2 bg-dark text-white border-0">Buy Tickets</button>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <img src="imgs/sanfran.jpg" alt="" class="w-100">
+                <div class="info bg-white text-start px-3">
+                  <h5 class="pt-4 pb-4 m-0 fw-bold">San Francisco</h5>
+                  <span>Sun 29 Nov 2016</span>
+                  <p class="pt-3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                  <button class="mb-2 p-2 bg-dark text-white border-0">Buy Tickets</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Tour Section -->
+        <!-- Start Contact Section -->
+        <div class="contact pt-5 pb-5 text-center" id="contact">
+          <div class="container pb-5">
+            <div class="info">
+              <h2 class="m-0 pb-3">CONTACT</h2>
+              <span class="text-secondary fst-italic">Fan? Drop a note!</span>
+            </div>
+            <div class="row mx-1 mx-lg-0 pt-5 justify-content-center">
+              <div class="info col-lg-4 p-0 text-start">
+                <div class="location pb-2">
+                  <i class="fa-solid fa-location-dot me-3"></i>
+                  <span class="d-inline-block w-50 text-start">Chicago, US</span>
+                </div>
+                <div class="phone pb-2">
+                  <i class="fa-solid fa-phone me-3"></i>
+                  <span class="d-inline-block w-50 text-start">Phone: +00 151515</span>
+                </div>
+                <div class="email">
+                  <i class="fa-solid fa-envelope me-3"></i>
+                  <span class="d-inline-block w-50 text-start">Email: mail@mail.com</span>
+                </div>
+              </div>
+              <div class="form col-lg-4 p-0 pt-4 pt-lg-0">
+                <div class="name-email d-lg-flex justify-content-between">
+                  <input type="text" class="p-2 d-block w-100" placeholder="Name">
+                  <input type="email" class="p-2 mt-3 mt-lg-0 ms-lg-3 d-block w-100" placeholder="Email">
+                </div>
+                <input type="text" class="d-block w-100 p-2 mt-3" placeholder="Message">
+                <button class="float-end mt-3 bg-dark text-white border-0 px-3 pt-2 pb-2 text-uppercase">Send</button>
+              </div>
+            </div>
+          </div>
+          <img src="imgs/map.jpg" alt="" class="w-100 pt-5">
+        </div>
+        <!-- End Contact Section -->
+        <!-- Start Footer -->
+        <footer class="pt-5 pb-5">
+          <div class="container text-center">
+            <div class="social-media h3">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-snapchat"></i>
+              <i class="fa-brands fa-pinterest"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p class="pt-2">Powered By <a href="https://github.com/nayouf305" class="text-dark">nayouf3o5</a></p>
+          </div>
+        </footer>
+        <!-- End Footer -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
